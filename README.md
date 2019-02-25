@@ -1,10 +1,5 @@
 # Destructuring Assignment
 
-## Learning Goals
-
-- Use destructuring to assign data to variables
-
-## Introduction
 
 As developers, sometimes we receive information and we don't know exactly how
 it's going to come in, how much is going to come in, or exactly what's going to
@@ -14,7 +9,7 @@ with. This is especially helpful in cases where we might get pieces of data that
 are required, such as name and email address, but also optional pieces of data,
 such as phone number or Instagram username. This is where JavaScript
 `destructuring` comes in. `destructuring` allows us to extract data from arrays,
-objects, maps, and sets into their own variable. 
+objects, maps, and sets into their own variable.
 
 
 ## Use Destructuring to Assign Data to Variables
@@ -37,7 +32,7 @@ const breed = doggie.breed; // Great Pyrenees
 
 This is pretty repetitive code, and it feels like there should be an easier way
 to do this. With `destructuring`, there is! JavaScript gives us the ability to
-assign multiple single variables at one time using a simple syntax. 
+assign multiple single variables at one time using a simple syntax.
 
 ```js
 
@@ -50,8 +45,8 @@ const doggie = {
 };
 
 const { first, breed } = doggie;
-console.log(first); 
-console.log(breed); 
+console.log(first);
+console.log(breed);
 
 ```
 
@@ -75,15 +70,15 @@ const doggie = {
 };
 
 const { ham, hot_dog } = doggie.favorite_foods.meats;
-console.log(ham); 
-console.log(hot_dog); 
+console.log(ham);
+console.log(hot_dog);
 
 ```
 
 ### Destructuring Assignment with Arrays
 
 Destructuring does not just work on objects - we can also use the same syntax
-with arrays as well. 
+with arrays as well.
 
 ```js
 
@@ -92,7 +87,7 @@ const [medium, small, giant] = dogs
 console.log(medium, small, giant) // Great Pyrenees, Pug, Bull Mastiff
 ```
 
-The cool part is we can pick the parts of the array that we want to assign! 
+The cool part is we can pick the parts of the array that we want to assign!
 ```js
 
 const dogs = ['Great Pyrenees', 'Pug', 'Bull Mastiff']
@@ -112,7 +107,7 @@ console.log(title, firstName, lastName) // Sir Woody BarksALot
 
 ```
 
-And we can also destructure it in parts, just as we did with arrays above: 
+And we can also destructure it in parts, just as we did with arrays above:
 
 ```js
 
@@ -127,7 +122,7 @@ console.log(title, lastName) // Sir BarksALot
 We are going to give you several strings, arrays, and objects and you're going
 to write several destructuring assignments for each. Write your code in the
 `index.js` file. Let the instructions in the README and the tests guide you
-through the process. 
+through the process.
 
 ## Conclusion
 
@@ -135,7 +130,7 @@ through the process.
 variables from objects, arrays, and strings. It allows us to pick and choose the
 pieces of data that we want to assign, and gives us lots of freedom to
 manipulate the data as it is coming in. With practice, you'll be proficient at
-it in no time. 
+it in no time.
 
 ## Resources
 
